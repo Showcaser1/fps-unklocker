@@ -244,7 +244,7 @@ coroutine.wrap(pcall)(function()
             sethiddenproperty(Lighting, "Technology", 2)
         else
             StarterGui:SetCore("SendNotification", {
-                Title = "discord.gg/rips",
+                Title = "https://discord.gg/ExxChfxQQJ",
                 Text = "Your exploit does not support sethiddenproperty, please use a different exploit.",
                 Duration = 5,
                 Button1 = "Okay"
@@ -253,7 +253,7 @@ coroutine.wrap(pcall)(function()
         end
         if _G.SendNotifications then
             StarterGui:SetCore("SendNotification", {
-                Title = "discord.gg/rips",
+                Title = "https://discord.gg/ExxChfxQQJ",
                 Text = "No Shadows Enabled",
                 Duration = 5,
                 Button1 = "Okay"
@@ -289,7 +289,7 @@ coroutine.wrap(pcall)(function()
         MaterialService.Use2022Materials = false
         if _G.SendNotifications then
             StarterGui:SetCore("SendNotification", {
-                Title = "discord.gg/rips",
+                Title = "https://discord.gg/ExxChfxQQJ",
                 Text = "Reset Materials Enabled",
                 Duration = 5,
                 Button1 = "Okay"
@@ -307,7 +307,7 @@ coroutine.wrap(pcall)(function()
                 setfpscap(tonumber(_G.Settings["FPS Cap"] or (_G.Settings.Other and _G.Settings.Other["FPS Cap"])))
                 if _G.SendNotifications then
                     StarterGui:SetCore("SendNotification", {
-                        Title = "discord.gg/rips",
+                        Title = "https://discord.gg/ExxChfxQQJ",
                         Text = "FPS Capped to " .. tostring(_G.Settings["FPS Cap"] or (_G.Settings.Other and _G.Settings.Other["FPS Cap"])),
                         Duration = 5,
                         Button1 = "Okay"
@@ -332,7 +332,7 @@ coroutine.wrap(pcall)(function()
             end
         else
             StarterGui:SetCore("SendNotification", {
-                Title = "discord.gg/rips",
+                Title = "https://discord.gg/ExxChfxQQJ",
                 Text = "FPS Cap Failed",
                 Duration = math.huge,
                 Button1 = "Okay"
@@ -370,7 +370,7 @@ for i, v in pairs(Descendants) do
     end
 end
 StarterGui:SetCore("SendNotification", {
-    Title = "discord.gg/rips",
+    Title = "https://discord.gg/ExxChfxQQJ",
     Text = "FPS Booster Loaded!",
     Duration = math.huge,
     Button1 = "Okay"
