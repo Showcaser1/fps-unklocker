@@ -215,7 +215,7 @@ coroutine.wrap(pcall)(function()
             sethiddenproperty(workspace:FindFirstChildOfClass("Terrain"), "Decoration", false)
         else
             StarterGui:SetCore("SendNotification", {
-                Title = "discord.gg/rips",
+                Title = "https://discord.gg/ExxChfxQQJ",
                 Text = "Your exploit does not support sethiddenproperty, please use a different exploit.",
                 Duration = 5,
                 Button1 = "Okay"
@@ -270,7 +270,7 @@ coroutine.wrap(pcall)(function()
         settings().Rendering.MeshPartDetailLevel = Enum.MeshPartDetailLevel.Level04
         if _G.SendNotifications then
             StarterGui:SetCore("SendNotification", {
-                Title = "discord.gg/rips",
+                Title = "https://discord.gg/ExxChfxQQJ",
                 Text = "Low Rendering Enabled",
                 Duration = 5,
                 Button1 = "Okay"
@@ -320,7 +320,7 @@ coroutine.wrap(pcall)(function()
                 setfpscap(1e6)
                 if _G.SendNotifications then
                     StarterGui:SetCore("SendNotification", {
-                        Title = "discord.gg/rips",
+                        Title = "https://discord.gg/ExxChfxQQJ",
                         Text = "FPS Uncapped",
                         Duration = 5,
                         Button1 = "Okay"
